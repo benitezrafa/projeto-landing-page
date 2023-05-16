@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#tituloMenuSuperior{
+    margin-left: 172px;
+    margin-top: 71px;
+}
+
+#textoMenuSuperior{
+    margin-left: 172px;
+    margin-top: 32px;
+    padding-bottom: 151px;
+}
+
+#menuSuperior{
+    background-image: url(img/fundoMenuSuperior.svg);
+    color: aliceblue;
+}
+
+#menuInformacional{
+    background: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin: 68px 0px 69px 175px;
+    padding: 25px;
+}
+
+.textoInofrmativo{ 
+    display: flex;
+    align-items: center;
+}
+
+#tituloVideo{
+    color: #247BA0;
+    margin-top: 97px;
+}
+
+#secaoVideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+#video{
+    margin: 67px 0px 68px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#tituloCarrossel{
+    font-size: 25px;
+    text-align: center;
+    color: #EAECE5;
+}
+
+#divCards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;    
+}
+
+#setaEsquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#tituloFormulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+   width: 300px;
+   height: 40px;
+   background: #EAECE5;
+   border-radius: 5px;
+   margin: 10px;
+   border: 0px;
+   padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3b9bc4;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #1e607c;
+    transition-duration: 0.5s;
+}
